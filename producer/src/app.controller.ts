@@ -6,7 +6,7 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get('send')
-  send(): string {
+  send() {
     return this.appService.send();
   }
 }
