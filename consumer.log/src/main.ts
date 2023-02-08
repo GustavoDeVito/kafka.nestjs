@@ -15,7 +15,7 @@ async function bootstrap() {
           fromBeginning: true,
         },
         consumer: {
-          groupId: 'test-consumer', // declaring consumer here
+          groupId: 'consumer-log', // declaring consumer here
         },
       },
     },
